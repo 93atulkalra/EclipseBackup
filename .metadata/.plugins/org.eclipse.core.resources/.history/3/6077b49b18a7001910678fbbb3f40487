@@ -1,0 +1,19 @@
+package Interviewquestion_Codingprac;
+
+public class MilitaryTime12Hourclock {
+
+	public static void main(String[] args) {
+		
+		
+		String miltarytime = "17:35:20";
+		miltarytime.replace(":", '');
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,19 @@
+package InnerClassConcept;
+
+public class NonStaticInnerClas {
+
+	int XOut =10;
+	static int  YOut =20;
+	
+	class innerNstat
+	{
+		
+		int Xin =90;
+		static Yin=70;
+		
+		
+	
+		
+	}
+	
+}

@@ -1,0 +1,24 @@
+package AutomationSrc;
+
+class parent {
+	
+	void asbc()
+	{
+		System.out.println("in abc");
+	}
+}
+
+public class Downcasting extends parent{
+
+	
+	public static void main(String[] args) {
+		
+		Downcasting d = new Downcasting();
+		parent d1 = new Downcasting();
+		  Downcasting d2 = (Downcasting)new parent();    
+		
+		
+		
+	} 
+	
+}

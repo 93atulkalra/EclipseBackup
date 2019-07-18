@@ -1,0 +1,12 @@
+{
+	"fields": {
+		"project": {
+			"key": "RES"
+		},
+		"summary": "Creating a new Bug sumamry via auo",
+		"description": "Create a new bug descrip via auii",
+		"issuetype": {
+			"name": "Bug"
+		}
+	}
+}

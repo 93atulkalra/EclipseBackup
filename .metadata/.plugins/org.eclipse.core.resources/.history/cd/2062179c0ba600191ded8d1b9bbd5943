@@ -1,0 +1,39 @@
+package Runnable;
+
+ class parent {
+	
+	
+	parent() throws ArithmeticException
+	{
+		System.out.println("i const");
+		int i = 10/0;
+		
+		
+		
+	}
+	
+	
+	
+		
+	}
+
+
+
+public class parent
+
+
+{
+	
+	
+	parent()
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}
+
+

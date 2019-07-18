@@ -1,0 +1,11 @@
+package InnerClassConcept;
+
+public class NonStaticInnerClas {
+
+	
+	class innerNstat
+	{
+		
+	}
+	
+}

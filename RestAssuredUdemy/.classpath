@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/json-path-4.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/json-path-4.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/json-schema-validator-4.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/json-schema-validator-4.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/rest-assured-4.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/rest-assured-4.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/rest-assured-common-4.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/rest-assured-common-4.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/xml-path-4.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/docs/xml-path-4.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/json-path-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/json-schema-validator-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/rest-assured-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/scala-support-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/spring-mock-mvc-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/PI_Studymaterial/Rest Assured/xml-path-4.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

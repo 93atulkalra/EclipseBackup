@@ -1,0 +1,51 @@
+package InnerClassConcept;
+
+public class StaticClass {
+	
+	int x =20;
+	static int y =10;
+	
+	static class innerstaticclass
+		{
+		
+		int a =25;
+		static int b =67;
+		
+		void show()
+			{
+			System.out.println("in inner show");
+			System.out.println(a+"Value" + b);
+			
+			}
+		
+		static void displ()
+		{
+		System.out.println("in inner Display");
+		
+		}
+		
+		}  // Inner static class ends
+	
+	public static void main(String[] args) {
+		
+		StaticClass obj = new StaticClass();
+		obj.x=40;
+		System.out.println(obj.x);
+		
+		StaticClass.y=50;
+		System.out.println(StaticClass.y);
+		
+		// Here we gonna make static inner class
+		
+		StaticClass.innerstaticclass.show();
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

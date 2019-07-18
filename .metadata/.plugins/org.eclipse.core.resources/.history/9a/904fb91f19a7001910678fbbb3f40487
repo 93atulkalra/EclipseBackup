@@ -1,0 +1,25 @@
+package Interviewquestion_Codingprac;
+
+public class MilitaryTime12Hourclock {
+
+	public static void main(String[] args) {
+		
+		
+		String miltarytime = "17:35:20";
+		miltarytime=	miltarytime.replace(":", "");
+		System.out.println(miltarytime);
+		int hh = Integer.parseInt(miltarytime.substring(0,2));
+		String mm = miltarytime.substring(2,4);
+		String ss = miltarytime.substring(4,6);
+		
+		System.out.println(hh+mm+ss);
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

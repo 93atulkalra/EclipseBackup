@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3109" started-at="2019-05-19T17:01:34Z" finished-at="2019-05-19T17:01:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3109" started-at="2019-05-19T17:01:34Z" finished-at="2019-05-19T17:01:37Z">
+      <class name="TestCases.Cashin_testcases">
+        <test-method status="PASS" signature="intailSetup()[pri:0, instance:TestCases.Cashin_testcases@18be83e4]" name="intailSetup" is-config="true" duration-ms="22" started-at="2019-05-19T17:01:34Z" finished-at="2019-05-19T17:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intailSetup -->
+        <test-method status="PASS" signature="setupclass()[pri:0, instance:TestCases.Cashin_testcases@18be83e4]" name="setupclass" is-config="true" duration-ms="1" started-at="2019-05-19T17:01:34Z" finished-at="2019-05-19T17:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupclass -->
+        <test-method status="PASS" signature="Tc1_Com_Flow()[pri:0, instance:TestCases.Cashin_testcases@18be83e4]" name="Tc1_Com_Flow" duration-ms="3077" started-at="2019-05-19T17:01:34Z" finished-at="2019-05-19T17:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1_Com_Flow -->
+      </class> <!-- TestCases.Cashin_testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

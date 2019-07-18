@@ -1,0 +1,41 @@
+package Interviewquestion_Codingprac;
+
+import java.util.Collections;
+import java.util.LinkedList;
+
+public class NamePrefixCheck {
+public static void main(String[] args) {
+	
+	LinkedList<String> arr = new LinkedList<String>() ;
+	arr.add("John");
+	arr.add("Tom");
+	arr.add("Alas");
+	arr.add("John");
+	
+	LinkedList<String> opt = new LinkedList<String>() ;
+	
+	int i,j,count;
+	int prefix =1;
+	
+	
+	for(i=0;i<4;i++)
+	{
+		if(Collections.frequency(arr,arr.get(i))>1)
+		{
+			
+			arr.set(i,"ABC" );
+			
+			
+			
+		}  // if frequency ends 
+		
+		opt.add(arr.get(i));
+		
+	}
+	
+	
+	
+	
+	
+}
+}

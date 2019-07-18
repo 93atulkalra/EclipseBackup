@@ -1,0 +1,20 @@
+package Interviewquestion_Codingprac;
+
+import java.util.LinkedList;
+
+public class NamePrefixCheck {
+public static void main(String[] args) {
+	
+	LinkedList<String> arr = new LinkedList<String>() ;
+	arr.add("John");
+	arr.add("Tom");
+	arr.add("Alas");
+	arr.add("John");
+	
+	
+	
+	
+	
+	
+}
+}

@@ -1,0 +1,12 @@
+package Runnable;
+
+public class Upper {
+
+	public static void main(String[] args) {
+		String inp = "Hi I am Atul";
+		
+		
+	}
+	
+	
+}

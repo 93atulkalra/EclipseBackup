@@ -1,0 +1,50 @@
+package Interviewquestion_Codingprac;
+
+import java.util.LinkedList;
+
+public class StringNumberLargest {
+	
+	public static void main(String[] args) {
+		
+		LinkedList<String> input = new LinkedList<String>();
+		input.add("582");
+		input.add("60");
+		
+		String XY = input.get(0)+input.get(1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	} 
+	
+
+}

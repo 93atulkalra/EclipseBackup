@@ -1,0 +1,22 @@
+package Runnable;
+
+public class Constructorexception {
+	
+	
+	Constructorexception() throws ArithmeticException
+	{
+		System.out.println("i const");
+		int i = 10/0;
+		
+		
+		
+	}
+	
+	
+	
+		
+	}
+
+
+
+

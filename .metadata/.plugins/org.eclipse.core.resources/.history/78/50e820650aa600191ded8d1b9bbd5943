@@ -1,0 +1,20 @@
+package Runnable;
+
+public class Constructorexception {
+	
+	
+	Constructorexception()
+	{
+		System.out.println("i const");
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Constructorexception ty = new Constructorexception();
+		
+		
+	}
+
+}

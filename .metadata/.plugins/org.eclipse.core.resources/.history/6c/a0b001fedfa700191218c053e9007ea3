@@ -1,0 +1,26 @@
+package AutomationSrc;
+
+//package AutomationSrc;
+
+class pagjrent {
+	
+	void asbc()
+	{
+		System.out.println("in abc");
+	}
+}
+
+public class Downcasting extends pagjrent{
+
+	
+	public static void main(String[] args) {
+		
+		Downcasting d = new Downcasting();
+		pagjrent d1 = new Downcasting();
+		//  Downcasting d2 = (Downcasting)new parent();    
+		
+		
+		
+	} 
+	
+}

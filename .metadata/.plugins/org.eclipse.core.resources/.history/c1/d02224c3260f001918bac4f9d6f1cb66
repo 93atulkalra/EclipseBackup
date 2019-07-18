@@ -1,0 +1,23 @@
+import java.util.Set;
+
+public class Recurrsion {
+
+	static int reduce(int n)
+	{
+		if(n>=0)
+		{
+			reduce(n-1);
+	
+		}
+		return n;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+Set<Integer> s = new Set<Integer>();
+	System.out.println(Recurrsion.reduce(4));
+	
+	}
+	
+
+}

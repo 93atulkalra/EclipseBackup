@@ -1,0 +1,29 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class Recurrsion {
+	static HashSet<Integer> s;
+	static HashSet reduce(int n)
+	{ 
+		s = new HashSet<Integer>();
+		if(n>0)
+		{
+			reduce(n-1);
+	
+		}
+		
+		s.add(n);
+		return s;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+		HashSet<Integer> sq = new HashSet<Integer>();
+	sq= Recurrsion.reduce(4);
+	System.out.println(sq);
+	
+	
+	}
+	
+
+}

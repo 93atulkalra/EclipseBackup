@@ -1,0 +1,22 @@
+package Runnable;
+
+public class Upper {
+
+	public static void main(String[] args) {
+		String inp = "Hi I am Atul";
+		
+	char ch[]=	inp.toCharArray();
+	
+	for(int i=0;i<ch.length;i++)
+	{
+	//	System.out.println(ch[i]);
+		if(ch[i]>='a' && ch[i]<='z')
+			System.out.println(ch[i]);
+		
+	}
+		
+		
+	}
+	
+	
+}

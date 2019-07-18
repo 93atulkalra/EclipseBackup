@@ -1,0 +1,11 @@
+package InnerClassConcept;
+
+public class StaticInnerMAINExceuetable {
+
+	static class iner
+	{
+		
+	}
+	
+	
+}
