@@ -5,13 +5,13 @@
     <classes>
       <class name="TestCases.TestId1">
         <methods>
-          <include name="generateDriver"/>
           <include name="tcase1"/>
+          <include name="DriverInstate"/>
         </methods>
       </class> <!-- TestCases.TestId1 -->
       <class name="TestCases.Test2">
         <methods>
-          <include name="generateDriver"/>
+          <include name="DriverInstate"/>
           <include name="tc2"/>
         </methods>
       </class> <!-- TestCases.Test2 -->

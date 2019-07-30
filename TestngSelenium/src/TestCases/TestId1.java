@@ -1,7 +1,8 @@
 package TestCases;
 
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.Test;
 
 import CreateDriver.DriverInstate;
@@ -9,20 +10,14 @@ import Pages.LoginPage;
 
 public class TestId1 extends DriverInstate {
 	
-	@Test(dataProvider="SampleData")
-	public void tcase1(String a,String b)
+	
+	@Test()
+	public void tcase1()
 	{
-		loginpg.enterUserName(a);
+		
+		driver.getTitle();
+		loginpg.clickSignIn();
 	}
-
-
-@DataProvider(name="SampleData")
-public Object [][] testData()
-
-{
-	Object[][] arr = {{"Abc"},{"def"}}; 
-	return arr; 
-}
 
 
 }

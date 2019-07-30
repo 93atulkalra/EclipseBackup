@@ -6,28 +6,25 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class LoginPage {
+import CreateDriver.DriverInstate;
+
+public class LoginPage  {
 	
-	WebDriver login_driver ;
-	ResourceBundle label;
- 
-	
+	 WebDriver driver ;
 	public LoginPage(WebDriver driver)
 	{
-		login_driver=driver;
-		 ResourceBundle rb = ResourceBundle.getBundle("Element");
-		 label=rb;
+this.driver=driver;
+		
 		
 	}
 	
 	
-	public void enterUserName(String a)
+	public void clickSignIn()
+	
 	{
 		
-		System.out.println();
-		System.out.println(label.getString("Loginpass"));
-		login_driver.findElement(By.xpath("//input[@id='email']")).sendKeys(a);
-		//login_driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("atul");
+		
+	driver.findElement(By.xpath(DriverInstate.prop_config.getProperty("signin"))).click();
 		
 		
 	}

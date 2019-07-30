@@ -10,6 +10,11 @@ public class NonStaticInnerClas {
 		
 		int Xin =90;
 	int XOut =7886;
+	
+	innerNstat(){
+		// Constructor are allword
+	}
+	
 	//	static int Yin=70;  We cannot ahve any Static Memeber be it variablr or function
 		 // That means Cannot have main also in this inner class
 		
@@ -18,6 +23,7 @@ public class NonStaticInnerClas {
 			System.out.println(Xin);
 			System.out.println(XOut);
 			System.out.println("hi");
+			System.out.println(YOut);
 			System.out.println(NonStaticInnerClas.this.XOut);
 			
 			

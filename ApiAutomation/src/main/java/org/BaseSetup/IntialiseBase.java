@@ -34,6 +34,7 @@ public class IntialiseBase {
 		 prop_config = new Properties();
 		 fileInputStream = new FileInputStream("C:\\Users\\WZJS1251\\eclipse-workspace\\ApiAutomation\\src\\main\\java\\org\\config\\Configurations.properties");
 		 prop_config.load(fileInputStream);
+		 prop_config.getProperty("HostName");
 		 
 		 
 	 	}

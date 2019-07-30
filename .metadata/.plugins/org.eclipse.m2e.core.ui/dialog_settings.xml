@@ -56,6 +56,8 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="JavaTestProject"/>
+			<item value="DSALgo"/>
 			<item value="CucumberTest"/>
 			<item value="RestASsured"/>
 			<item value="GITTest"/>
@@ -67,6 +69,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JavaTestProject"/>
+			<item value="DSALgo"/>
 			<item value="CucumberTest"/>
 			<item value="RestASsured"/>
 			<item value="GITTest"/>
@@ -97,6 +101,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="JavaFramework.JavaFramework"/>
+			<item value="TinderSwipe.TinderSwipe"/>
 			<item value="JenkinIntegration.JenkinIntegration"/>
 			<item value="JenkinT2.JenkinT2"/>
 			<item value="JenkinT"/>
@@ -110,9 +116,10 @@
 			<item value="OrangeMoney.OrgOMRest"/>
 			<item value="BDDCucumber.BDDCucumberJunit"/>
 			<item value="DefinedBenefitsAutomation.Automation"/>
-			<item value="DefinedBenefits.QA"/>
 		</list>
 		<list key="groupId">
+			<item value="JavaFramework"/>
+			<item value="TinderSwipe"/>
 			<item value="JenkinIntegration"/>
 			<item value="JenkinT2"/>
 			<item value="2"/>
@@ -127,6 +134,8 @@
 			<item value="DefinedBenefits"/>
 		</list>
 		<list key="artifactId">
+			<item value="JavaFramework"/>
+			<item value="TinderSwipe"/>
 			<item value="JenkinIntegration"/>
 			<item value="JenkinT2"/>
 			<item value="JenkinT"/>

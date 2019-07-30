@@ -11,7 +11,9 @@ public class Test2 extends DriverInstate {
 	public void tc2()
 	{
 		System.out.println("In test 2");
-			loginpg.enterUserName("Abc");
+			
+			driver.getTitle();
+			op.enterUserName();
 
 
 	}

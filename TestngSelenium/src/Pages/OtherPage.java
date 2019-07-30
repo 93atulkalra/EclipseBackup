@@ -8,26 +8,22 @@ import org.openqa.selenium.WebDriver;
 public class OtherPage {
 
 	
-	WebDriver login_driver ;
-	ResourceBundle label;
+	 WebDriver driver ;
+	
  
 	
 	public OtherPage(WebDriver driver)
 	{
-		login_driver=driver;
-		 ResourceBundle rb = ResourceBundle.getBundle("Element");
-		 label=rb;
+		this.driver=driver;
+		
 		
 	}
 	
 	
-	public void enterUserName(String a)
+	public void enterUserName()
 	{
 		
-		System.out.println();
-	//	login_driver.findElement(By.xpath("//input[@id='email']")).sendKeys(a);
-		login_driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("atul");
-		
+	driver.findElement(By.xpath("//input[@id='login-username']")).sendKeys("abc");
 		
 	}
 }

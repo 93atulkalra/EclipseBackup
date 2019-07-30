@@ -1,8 +1,0 @@
-package Interviewquestion_Codingprac;
-
-public class Random {
-public static void main(String[] args) {
-	double random = Math.random() * 49 + 1;
-	System.out.println(random);
-}
-}
