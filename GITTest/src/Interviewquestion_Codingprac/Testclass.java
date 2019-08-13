@@ -10,6 +10,10 @@ public class Testclass  {
 	}
 	
 	public static void main(String[] args) {
-	
+		
+		String a ="900";
+		String b ="8";
+		
+		System.out.println(a.compareTo(b));	
 }
 }

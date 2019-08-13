@@ -10,6 +10,8 @@ import org.openqa.selenium.interactions.Actions;
 
 public class RobotClassConcecpt {
 
+	void sum()
+	{}
 	
 	public static void main(String[] args) throws Exception {
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\WZJS1251\\eclipse\\jee-photon\\eclipse\\geckodriver.exe");  

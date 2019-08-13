@@ -2,38 +2,7 @@ package Interviewquestion_Codingprac;
 
 public class ArrayReaarangeSortUnsort {
 	
-//	public static void main(String[] args) {
-//		
-//		
-//		int ar [] = {1,2,3,4,5};
-//		 // 			op= 5,1,4,2,3
-//		
-//		int size = ar.length;
-//		int i=0,j=0;
-//		int ls = size-1;
-//		int temp,p=0;
-//		
-//		for(i=size-1;i>0;i=i-2)
-//		{
-//			temp=ar[ls];
-//			
-//			for(j=i;j>=0;j--)
-//					{
-//		ar[j+1]=ar[j];
-//			
-//				
-//			} // J ends
-//						
-//			ar[p] = temp;
-//			p=p+2;
-//		} // I loop end here
-//		
-//		
-//		
-//		for(int k=0;k<size;k++ )
-//			System.out.println(ar[k]);
-//	}
-//	
+
 
 	
 	 public static void rearrange(int arr[], int n) 

@@ -7,16 +7,19 @@ import java.util.TreeSet;
 
 
 public class SetConcept {
-
+	RobotClassConcecpt c = new RobotClassConcecpt();
 
 		public static void main(String[] args) {
+			SetConcept rt = new SetConcept();
+			
+	System.out.println(rt.c);
 			TreeSet tr = new TreeSet();
 			tr.add(10);
 			tr.add(100);
 			tr.add(100);
 	
 			
-			tr.add("2100");
+		//	tr.add("2100");
 			System.out.println(tr);
 		Iterator itr =	tr.iterator();
 		while(itr.hasNext())

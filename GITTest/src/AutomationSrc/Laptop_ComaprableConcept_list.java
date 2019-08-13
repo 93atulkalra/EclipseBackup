@@ -6,7 +6,10 @@ public class Laptop_ComaprableConcept_list implements Comparable<Laptop_Comaprab
 	int price;
 	String company;
 	
-	Laptop_ComaprableConcept_list(int ram,int price,String company)
+	
+	
+	
+	 Laptop_ComaprableConcept_list(int ram,int price,String company)
 	{
 		this.ram=ram;
 		this.price=price;
