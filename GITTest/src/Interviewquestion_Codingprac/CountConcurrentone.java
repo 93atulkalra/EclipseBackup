@@ -38,7 +38,15 @@ public class CountConcurrentone {
 	        System.out.println(maxLength);
 	        System.out.println(count+1);
 		
-	
+	        
+	        
+	        System.out.println("Testing String Buffer");
+	        
+	        StringBuffer str = new StringBuffer("hello");
+	        System.out.println(str.capacity());
+	        str.append("Tessssssssssssssssssssssss");
+	        System.out.println(str.capacity());
+	       
 	
 }
 }

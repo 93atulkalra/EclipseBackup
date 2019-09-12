@@ -25,6 +25,19 @@ public class SerialDemoInheritance {
 		
 		System.out.println(d2.i+"...."+ d2.j);
 		
+		
+		
+		
+		
+		String s ="{\r\n" + 
+				"    \"data\": {\r\n" + 
+				"        \"id\": 2,\r\n" + 
+				"        \"email\": \"janet.weaver@reqres.in\",\r\n" + 
+				"        \"first_name\": \"Janet\",\r\n" + 
+				"        \"last_name\": \"Weaver\",\r\n" + 
+				"        \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"\r\n" + 
+				"    }\r\n" + 
+				"}";
 	}
 
 }

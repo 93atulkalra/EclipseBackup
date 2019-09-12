@@ -118,7 +118,7 @@ static Properties prop;
 		header.put("Cookie",sessionid);
 
 			RequestSpecification htpreq2 = RestAssured.given().
-					headers("Content-Type","application/json").header("Cookie",sessionid);
+					header("Content-Type","application/json").header("Cookie",sessionid);
 			 
 			 //String request = GeneraFromResurce("C:\\Users\\WZJS1251\\eclipse-workspace\\RestASsured\\src\\udemy\\Config\\BodyJson.json");
 			 

@@ -4,8 +4,9 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Scnner {
-
+public class Scnner  {
+	Scnner()
+	{}
 	
 	int abc (int x)
 	{

@@ -7,9 +7,14 @@ import java.io.Serializable;
 
 public class DogClass implements Serializable{
 	
-	 transient  int i=10;
+	   int i=10;
 	 transient  String u="abc";
 	int j=20;
+	
+	DogClass()
+	{
+		System.out.println("In default DogClas");
+	}
 	
 	private void  writeObject(ObjectOutputStream os) throws Exception
 	{

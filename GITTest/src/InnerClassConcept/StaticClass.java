@@ -1,5 +1,7 @@
 package InnerClassConcept;
 
+import Interviewquestion_Codingprac.MysteryNumberSumReverse;
+
 public class StaticClass {
 	
 	int x =20;
@@ -53,6 +55,8 @@ static	void displ()
 		}  // Inner static class ends
 	
 	public static void main(String[] args) {
+		
+		MysteryNumberSumReverse f = new MysteryNumberSumReverse();
 		
 		StaticClass obj = new StaticClass();
 		//obj.x=40;

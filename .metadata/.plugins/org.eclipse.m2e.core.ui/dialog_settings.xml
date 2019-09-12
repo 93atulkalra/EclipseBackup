@@ -85,6 +85,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\WZJS1251\eclipse-workspace\EclipseBackup\GITTest\src\Serilaization\SerialDemoInheritance.java"/>
 			<item value="C:\Users\WZJS1251\eclipse-workspace\GITTest"/>
 			<item value="C:\Users\WZJS1251\eclipse-workspace\GITTest\src\Interviewquestion_Codingprac\Palindrome.java"/>
 			<item value="C:\Users\WZJS1251\eclipse-workspace\ApiAutomation"/>
@@ -101,54 +102,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="JavaFramework.JavaFramework"/>
-			<item value="TinderSwipe.TinderSwipe"/>
-			<item value="JenkinIntegration.JenkinIntegration"/>
-			<item value="JenkinT2.JenkinT2"/>
-			<item value="JenkinT"/>
-			<item value="JenkinT.JenkinT"/>
-			<item value="Cucumber.Cucumber"/>
-			<item value="JenkinGIT.JenkinGIT"/>
-			<item value="CucumberAutomationFramework.CucumberAutomationFramework"/>
-			<item value="APIAutomationFramework.ApiAutomation"/>
-			<item value="APIAutomationFramework.APIAutomationFramework"/>
-			<item value="APIAutomationFramework.OrangeAPIAutomation"/>
-			<item value="OrangeMoney.OrgOMRest"/>
-			<item value="BDDCucumber.BDDCucumberJunit"/>
-			<item value="DefinedBenefitsAutomation.Automation"/>
 		</list>
 		<list key="groupId">
-			<item value="JavaFramework"/>
-			<item value="TinderSwipe"/>
-			<item value="JenkinIntegration"/>
-			<item value="JenkinT2"/>
-			<item value="2"/>
-			<item value="JenkinT"/>
-			<item value="Cucumber"/>
-			<item value="JenkinGIT"/>
-			<item value="CucumberAutomationFramework"/>
-			<item value="APIAutomationFramework"/>
-			<item value="OrangeMoney"/>
-			<item value="BDDCucumber"/>
-			<item value="DefinedBenefitsAutomation"/>
-			<item value="DefinedBenefits"/>
 		</list>
 		<list key="artifactId">
-			<item value="JavaFramework"/>
-			<item value="TinderSwipe"/>
-			<item value="JenkinIntegration"/>
-			<item value="JenkinT2"/>
-			<item value="JenkinT"/>
-			<item value="Cucumber"/>
-			<item value="JenkinGIT"/>
-			<item value="CucumberAutomationFramework"/>
-			<item value="ApiAutomation"/>
-			<item value="APIAutomationFramework"/>
-			<item value="OrangeAPIAutomation"/>
-			<item value="OrgOMRest"/>
-			<item value="BDDCucumberJunit"/>
-			<item value="Automation"/>
-			<item value="QA"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
