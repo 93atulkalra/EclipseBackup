@@ -1,5 +1,7 @@
 package Org_Rest;
 
+import org.testng.Assert;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
@@ -12,26 +14,27 @@ public class TestCode_PostRequest {
 	
 	public static void main(String[] args) {
 		
-		RestAssured.baseURI = "http://216.10.245.166/maps/api/place/add/json";
+		RestAssured.baseURI = "http://10.2.4.119:8080/iocl/v2/registerUser";
  		 RequestSpecification httpRequest = RestAssured.given().
-				 queryParam("key","qaclick123");
+				 queryParam("phone","7777799999").queryParam("userAction", "confirm");
+				 		
 		 // param method would iilegal state exception  java.lang.IllegalStateException:
 		 //You can either send form parameters OR body content in POST, not both!
 		 httpRequest = httpRequest.body(PostPlaceAddData.bodyPlace());
 		 
 		 Response response = httpRequest.request(Method.POST);
-			System.out.println(response.contentType());
 			int status_code=response.statusCode();
 			System.out.println("Status code of the request" +  status_code);
 			
-			System.out.println(response.getBody());
 			 String responseBody = response.getBody().asString();
-					System.out.println("Response Body is =>  " + responseBody);
+				boolean flag;
+					if(status_code==200)
+						flag=true;
+					else flag = false;
+					Assert.assertTrue(flag);
 					
 				System.out.println(response.getStatusLine());
 				
-				System.out.println("Indivuiaula resposne ");
-			//	JsonPath jpe =new JsonPath(responseBody);
 				JsonPath jpe = response.jsonPath();
    String status = (jpe.get("status"));
 				String scope= jpe.get("scope");

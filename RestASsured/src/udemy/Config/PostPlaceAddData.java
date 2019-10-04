@@ -5,20 +5,20 @@ public class PostPlaceAddData {
 	public static String bodyPlace()
 	{
 	
-		String bodyPlaceadd ="{" + 
-		 		"\"location\":{" + 
-		 		"\"lat\" : -38.383494," + 
-		 		"\"lng\" : 33.427362" + 
-		 		"}," + 
-		 		"\"accuracy\":50," + 
-		 		"\"name\":\"Frontline house\"," + 
-		 		"\"phone_number\":\"(+91) 983 893 3937\"," + 
-		 		"\"address\" : \"29, side layout, cohen 09\"," + 
-		 		"\"types\": [\"shoe park\",\"shop\"]," + 
-		 		"\"website\" : \"http://google.com\"," + 
-		 		"\"language\" : \"French-IN\"" + 
-		 		"}" + 
-		 		"";
+		String bodyPlaceadd ="{\r\n" + 
+				"    \"user\": {\r\n" + 
+				"        \"firstName\": \"rohit\",\r\n" + 
+				"        \"lastName\": \"Singh\",\r\n" + 
+				"        \"displayName\": \"rohit Sharma Singh\",\r\n" + 
+				"        \"mobile\": \"7777799999\",\r\n" + 
+				"        \"dob\": \"11-01-2010\",\r\n" + 
+				"        \"pincode\": \"20103078\"\r\n" + 
+				"    },\r\n" + 
+				"    \"userEnrollmentMetaData\": {\r\n" + 
+				"        \"memberNumber\": \"PR200000000011388\",\r\n" + 
+				"        \"dupUCMId\": \"PR200000000011388\"\r\n" + 
+				"    }\r\n" + 
+				"}";
 		
 		return bodyPlaceadd;
 		
